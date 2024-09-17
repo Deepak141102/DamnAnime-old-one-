@@ -1,0 +1,29 @@
+.ep_head{
+    border: 1px solid #777;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -2rem 19.8rem 2rem 19.8rem;   
+    padding: 1rem;
+    border-style: outset;
+    flex-direction: column;
+}
+
+h1{
+    color: aquamarine;
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+}
+
+
+    
+
+@media (max-width: 430px) {
+    .ep_head{
+        margin: 0 0 4rem 0;
+    }
+h2{
+    color: beige;
+}
+
+}
